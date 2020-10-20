@@ -16,7 +16,9 @@ function goodbyeYou(name){
   return (name !== undefined ? 'Goodbye' + ', ' + name : 'Goodbye' + ', ' + 'stranger')
 }
 
-
+function darkAndStormyNight(time, rainFall){
+  return (time === 'dark' && rainFall >= 0.5 ? 'It was a dark and stormy night.' : "My usual opening doesn't apply, I guess.")
+}
 
 
 // Our code below; do not touch!
