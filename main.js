@@ -13,8 +13,10 @@ function helloThere(name){
 }
 
 function goodbyeYou(name){
-  return (name = ' ' ? 'Goodbye' + ', ' + name : 'Goodbye' + ', ' + 'stranger')
+  return (name !== undefined ? 'Goodbye' + ', ' + name : 'Goodbye' + ', ' + 'stranger')
 }
+
+
 
 
 // Our code below; do not touch!
